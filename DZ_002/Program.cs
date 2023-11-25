@@ -51,11 +51,11 @@
 
 
 
-// Напишите программу, которая выводит третью с начала
-// цифру заданного числа или сообщает, что третьей цифры
-// нет.
-// 456 => 6
-// 91 => Третьей цифры нет
+// // Напишите программу, которая выводит третью с начала
+// // цифру заданного числа или сообщает, что третьей цифры
+// // нет.
+// // 456 => 6
+// // 91 => Третьей цифры нет
 
 // Console.Write("Введите число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
@@ -74,15 +74,15 @@
 // }
 
 
-// Напишите программу, которая на вход принимает натуральное число N, 
-// а на выходе показывает его цифры через запятую.
+// // Напишите программу, которая на вход принимает натуральное число N, 
+// // а на выходе показывает его цифры через запятую.
 
-Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-string digits = String.Empty; // ""
-while (number > 0)
-{
-    digits = (number % 10).ToString() + "," + digits;
-    number /= 10; 
-}
-Console.WriteLine($"Итого: {digits}");
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// string digits = String.Empty; // ""
+// while (number > 0)
+// {
+//     digits = (number % 10).ToString() + "," + digits;
+//     number /= 10; 
+// }
+// Console.WriteLine($"Итого: {digits}");
