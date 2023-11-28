@@ -8,11 +8,14 @@ for (int i = 0; i < size; i++)
     array[i] = new Random().Next(0, 101);
 }
 Console.WriteLine($"[{string.Join(";  ", array)}]");
-if (array >= 20 && array <= 90);
+for (int i = 0; i < size; i++)
 {
-int count = array;
+    if (array[i] >= 20 && array[i] <= 90) ;
+    int count = array[i];
 }
-    Console.WriteLine($"[{string.Join(";  ", count)}]");
+Console.WriteLine($"Количество элементов в массиве: + {array}");
+
+
 
 
 // Задача 2: Задайте массив на 10 целых чисел. 
