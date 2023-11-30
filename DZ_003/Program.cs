@@ -42,22 +42,22 @@
 // Найдите разницу между максимальным и минимальным элементов массива.
 
 
-int size = 10;
-double[] array = new double[size];
-for (int i = 0; i < size; i++)
-{
-    array[i] = Math.Round(new Random().NextDouble() * new Random().Next(0, 101), 2);
-}
-Console.WriteLine($"[{string.Join(";  ", array)}]");
-double min = 0;
-double max = 0;
-for (double i = 0; i < size; i++)
-{
-    if (array[i] > max) max = i;
-    if (array[i] < min) min = i;
-}
-Console.WriteLine($"Максимальный элемент: {max}, Минимальный элемент: {min}");
-Console.WriteLine($"Разница между максимальным и минимальным элементом: {max - min}");
+// int size = 10;
+// double[] array = new double[size];
+// for (int i = 0; i < size; i++)
+// {
+//     array[i] = Math.Round(new Random().NextDouble() * new Random().Next(0, 101), 2);
+// }
+// Console.WriteLine($"[{string.Join(";  ", array)}]");
+// double max = 0;
+// double min = 100;
+// for (int i = 0; i < size; i++)
+// {
+//     if (array[i] > max) max = array[i];
+//     if (array[i] < min) min = array[i];
+// }
+// Console.WriteLine($"Максимальный элемент: {max}, Минимальный элемент: {min}");
+// Console.WriteLine($"Разница между максимальным и минимальным элементом: {max - min}");
 
 
 
