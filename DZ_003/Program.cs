@@ -21,20 +21,20 @@
 // Задача 2: Задайте массив на 10 целых чисел. 
 // Напишите программу, которая определяет количество чётных чисел в массиве.
 
-// int size = 10;
-// int[] array = new int[size];
-// for (int i = 0; i < size; i++)
-// {
-//     array[i] = new Random().Next(0, 101);
-// }
-// Console.WriteLine($"[{string.Join(";  ", array)}]");
-// int count = 0;
-// for (int i = 0; i < size; i++)
-// {
-//     if ((array[i] % 2) == 0)
-//         count++;
-// }
-// Console.WriteLine($"Количество четных чисел в массиве: {count}");
+int size = 10;
+int[] array = new int[size];
+for (int i = 0; i < size; i++)
+{
+    array[i] = new Random().Next(10, 101);
+}
+Console.WriteLine($"[{string.Join(";  ", array)}]");
+int count = 0;
+for (int i = 0; i < size; i++)
+{
+    if ((array[i] % 2) == 0)
+        count++;
+}
+Console.WriteLine($"Количество четных чисел в массиве: {count}");
 
 
 
