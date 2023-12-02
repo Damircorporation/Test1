@@ -21,26 +21,25 @@
 // Задача 2: Задайте массив на 10 целых чисел. 
 // Напишите программу, которая определяет количество чётных чисел в массиве.
 
-int size = 10;
-int[] array = new int[size];
-for (int i = 0; i < size; i++)
-{
-    array[i] = new Random().Next(10, 101);
-}
-Console.WriteLine($"[{string.Join(";  ", array)}]");
-int count = 0;
-for (int i = 0; i < size; i++)
-{
-    if ((array[i] % 2) == 0)
-        count++;
-}
-Console.WriteLine($"Количество четных чисел в массиве: {count}");
+// int size = 10;
+// int[] array = new int[size];
+// for (int i = 0; i < size; i++)
+// {
+//     array[i] = new Random().Next(10, 101);
+// }
+// Console.WriteLine($"[{string.Join(";  ", array)}]");
+// int count = 0;
+// for (int i = 0; i < size; i++)
+// {
+//     if ((array[i] % 2) == 0)
+//         count++;
+// }
+// Console.WriteLine($"Количество четных чисел в массиве: {count}");
 
 
 
 // Задача 3: Задайте массив из вещественных чисел с ненулевой дробной частью. 
 // Найдите разницу между максимальным и минимальным элементов массива.
-
 
 // int size = 10;
 // double[] array = new double[size];
@@ -58,6 +57,3 @@ Console.WriteLine($"Количество четных чисел в массив
 // }
 // Console.WriteLine($"Максимальный элемент: {max}, Минимальный элемент: {min}");
 // Console.WriteLine($"Разница между максимальным и минимальным элементом: {max - min}");
-
-
-
