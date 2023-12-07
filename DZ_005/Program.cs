@@ -90,54 +90,54 @@
 // Задача 3: Задайте прямоугольный двумерный массив. Напишите программу, 
 // которая будет находить строку с наименьшей суммой элементов.
 
-int[,] CreateMatrix(int rows, int columns, int min, int max)
-{
-    int[,] matrix = new int[rows, columns];
-    Random rand = new Random();
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < columns; j++)
-        {
-            matrix[i, j] = rand.Next(min, max + 1);
-        }
-    }
-    return matrix;
-}
-void PrintMatrix(int[,] matrix)
-{
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write($"{matrix[i, j]} ");
-        }
-        Console.WriteLine();
-    }
-}
+// int[,] CreateMatrix(int rows, int columns, int min, int max)
+// {
+//     int[,] matrix = new int[rows, columns];
+//     Random rand = new Random();
+//     for (int i = 0; i < rows; i++)
+//     {
+//         for (int j = 0; j < columns; j++)
+//         {
+//             matrix[i, j] = rand.Next(min, max + 1);
+//         }
+//     }
+//     return matrix;
+// }
+// void PrintMatrix(int[,] matrix)
+// {
+//     for (int i = 0; i < matrix.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matrix.GetLength(1); j++)
+//         {
+//             Console.Write($"{matrix[i, j]} ");
+//         }
+//         Console.WriteLine();
+//     }
+// }
 
-int SumRowElements(int[,] res, int i)
-{
-    int sumRow = res[i, 0];
-    for (int j = 1; j < res.GetLength(1); j++)
-    {
-        sumRow += res[i, j];
-    }
-    return sumRow;
-}
+// int SumRowElements(int[,] res, int i)
+// {
+//     int sumRow = res[i, 0];
+//     for (int j = 1; j < res.GetLength(1); j++)
+//     {
+//         sumRow += res[i, j];
+//     }
+//     return sumRow;
+// }
 
-int[,] res = CreateMatrix(5, 6, 0, 9);
-Console.WriteLine();
-Console.WriteLine("Исходный массив: ");
-PrintMatrix(res);
-int minSumRow = 0;
-int sumRow = SumRowElements(res, 0);
-for (int i = 1; i < res.GetLength(0); i++)
-{
-    int tempSumRow = SumRowElements(res, i);
-    if (sumRow > tempSumRow)
-    {
-        sumRow = tempSumRow;
-        minSumRow = i;
-    }
-}
-Console.WriteLine($"\nСтрока номер {minSumRow + 1} имеет наименьшую сумму чисел равную {sumRow}");
+// int[,] res = CreateMatrix(5, 6, 0, 9);
+// Console.WriteLine();
+// Console.WriteLine("Исходный массив: ");
+// PrintMatrix(res);
+// int minSumRow = 0;
+// int sumRow = SumRowElements(res, 0);
+// for (int i = 1; i < res.GetLength(0); i++)
+// {
+//     int tempSumRow = SumRowElements(res, i);
+//     if (sumRow > tempSumRow)
+//     {
+//         sumRow = tempSumRow;
+//         minSumRow = i;
+//     }
+// }
+// Console.WriteLine($"\nСтрока номер {minSumRow + 1} имеет наименьшую сумму чисел равную {sumRow}");
