@@ -114,49 +114,30 @@ void PrintMatrix(int[,] matrix)
         Console.WriteLine();
     }
 }
+
+int SumRowElements(int[,] res, int i)
+{
+    int sumRow = res[i, 0];
+    for (int j = 1; j < res.GetLength(1); j++)
+    {
+        sumRow += res[i, j];
+    }
+    return sumRow;
+}
+
 int[,] res = CreateMatrix(5, 6, 0, 9);
+Console.WriteLine();
 Console.WriteLine("Исходный массив: ");
 PrintMatrix(res);
-Console.WriteLine();
-
-// void SumInLines (int[,] res)
-// {
-    Console.Write("Суммы элементов в каждой строке: ");
-    for (int i = 0; i < res.GetLength(0); i++)
-    {
-        int sum = 0;
-        for (int j = 0; j < res.GetLength(1); j++)
-        {
-            sum += res[i, j];
-        }
-        return sum
-        // Console.Write($"{sum} ");
-    }
-// }
-// res=SumInLines;
-
-
-// Функция, считающая сумму элементов в строке
-// int SumLine(int[,] int i);
-// {
-//     int sum = res[i, 0];
-//     for (int j = 1; j < res.GetLength(1); j++)
-//     {
-//         sum += res[i, j];
-//     }
-//     return sum;
-// }
-
-int maxSum = 1;
-int sum = SumLine(res, 0);
-for (int i = 1; i < matrix.GetLength(0); i++)
+int minSumRow = 0;
+int sumRow = SumRowElements(res, 0);
+for (int i = 1; i < res.GetLength(0); i++)
 {
-    if (sum > SumLine(matrix, i))
+    int tempSumRow = SumRowElements(res, i);
+    if (sumRow > tempSumRow)
     {
-        sum = SumLine(matrix, i);
-        maxSum = i + 1;
+        sumRow = tempSumRow;
+        minSumRow = i;
     }
 }
-Console.WriteLine($"\n Строка c наименьшей суммой элементов:  ");
-
-// hello
+Console.WriteLine($"\nСтрока номер {minSumRow + 1} имеет наименьшую сумму чисел равную {sumRow}");
