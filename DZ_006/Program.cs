@@ -1,6 +1,7 @@
 ﻿// // Задача 1: Задайте двумерный массив символов (тип char [,]). 
 // // Создать строку из символов этого массива.
 
+// char[,] charArray = new char[,] { { 'a', 'b', 'c' }, { 'd', 'e', 'f' } };
 // string CreateStringFrom2DArray(char[,] array)
 // {
 //     string result = String.Empty;
@@ -13,7 +14,6 @@
 //     }
 //     return result;
 // }
-// char[,] charArray = new char[,] { { 'a', 'b', 'c' }, { 'd', 'e', 'f' } };
 // string result = CreateStringFrom2DArray(charArray);
 // Console.WriteLine(result);
 
