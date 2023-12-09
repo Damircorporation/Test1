@@ -1,0 +1,15 @@
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\DZ_006.csproj.AssemblyReference.cache
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\DZ_006.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\DZ_006.AssemblyInfoInputs.cache
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\DZ_006.AssemblyInfo.cs
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\DZ_006.csproj.CoreCompileInputs.cache
+C:\Users\Damir\Desktop\Seminar\DZ_006\bin\Debug\net6.0\DZ_006.exe
+C:\Users\Damir\Desktop\Seminar\DZ_006\bin\Debug\net6.0\DZ_006.deps.json
+C:\Users\Damir\Desktop\Seminar\DZ_006\bin\Debug\net6.0\DZ_006.runtimeconfig.json
+C:\Users\Damir\Desktop\Seminar\DZ_006\bin\Debug\net6.0\DZ_006.dll
+C:\Users\Damir\Desktop\Seminar\DZ_006\bin\Debug\net6.0\DZ_006.pdb
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\DZ_006.dll
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\refint\DZ_006.dll
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\DZ_006.pdb
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\DZ_006.genruntimeconfig.cache
+C:\Users\Damir\Desktop\Seminar\DZ_006\obj\Debug\net6.0\ref\DZ_006.dll
