@@ -48,10 +48,8 @@
 // {
 //     if (m == 0)
 //         return n + 1;
-
 //     if (n == 0)
 //         return CalculateAckermann(m - 1, 1);
-
 //     return CalculateAckermann(m - 1, CalculateAckermann(m, n - 1));
 // }
 
@@ -59,30 +57,30 @@
 // Задача 3: Задайте произвольный массив. Выведете его элементы, начиная с конца. 
 // Использовать рекурсию, не использовать циклы.
 
-Random random = new Random();
-int[] array = new int[10];
-for (int i = 0; i < array.Length; i++)
-{
-    array[i] = random.Next(10);
-}
-// Вывод массива на экран в строчном виде
-Console.WriteLine("Массив:");
-foreach (int num in array)
-{
-    Console.Write(num + " ");
-}
-// Вывод массива на экран в строчном виде, начиная с конца
-Console.WriteLine("\nМассив в обратном порядке:");
-PrintArrayReverse(array, array.Length - 1);
+// Random random = new Random();
+// int[] array = new int[10];
+// for (int i = 0; i < array.Length; i++)
+// {
+//     array[i] = random.Next(10);
+// }
+// // Вывод массива на экран в строчном виде
+// Console.WriteLine("Массив:");
+// foreach (int num in array)
+// {
+//     Console.Write(num + " ");
+// }
+// // Вывод массива на экран в строчном виде, начиная с конца
+// Console.WriteLine("\nМассив в обратном порядке:");
+// PrintArrayReverse(array, array.Length - 1);
 
-Console.ReadLine();
+// Console.ReadLine();
 
-// Рекурсивная функция для вывода массива в обратном порядке
-static void PrintArrayReverse(int[] array, int index)
-{
-    if (index >= 0)
-    {
-        Console.Write(array[index] + " ");
-        PrintArrayReverse(array, index - 1);
-    }
-}
+// // Рекурсивная функция для вывода массива в обратном порядке
+// static void PrintArrayReverse(int[] array, int index)
+// {
+//     if (index >= 0)
+//     {
+//         Console.Write(array[index] + " ");
+//         PrintArrayReverse(array, index - 1);
+//     }
+// }
