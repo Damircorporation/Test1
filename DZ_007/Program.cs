@@ -59,36 +59,30 @@
 // Задача 3: Задайте произвольный массив. Выведете его элементы, начиная с конца. 
 // Использовать рекурсию, не использовать циклы.
 
-
-int[] array = { 1, 2, 3, 4, 5 };
+Random random = new Random();
+int[] array = new int[10];
+for (int i = 0; i < array.Length; i++)
+{
+    array[i] = random.Next(10);
+}
+// Вывод массива на экран в строчном виде
+Console.WriteLine("Массив:");
+foreach (int num in array)
+{
+    Console.Write(num + " ");
+}
+// Вывод массива на экран в строчном виде, начиная с конца
+Console.WriteLine("\nМассив в обратном порядке:");
 PrintArrayReverse(array, array.Length - 1);
 
+Console.ReadLine();
+
+// Рекурсивная функция для вывода массива в обратном порядке
 static void PrintArrayReverse(int[] array, int index)
 {
-    // Проверяем, является ли индекс отрицательным, тогда выходим из рекурсии
-    if (index < 0)
-        return;
-    Console.WriteLine(array[index]);
-    // Рекурсивно вызываем функцию для предыдущего индекса в массиве
-    PrintArrayReverse(array, index - 1);
-}
-
-// int size = 10;
-// int[] array = new int[size];
-// for (int i = 0; i < size; i++)
-// {
-//     array[i] = new Random().Next(0, 10);
-// }
-// Console.WriteLine($"[{string.Join(";  ", array)}]");
-// // Console.WriteLine ($"[{PrintArrayReverse(array, array.Length - 1)}]");
-// PrintArrayReverse(array, index - 1);
-
-// static void PrintArrayReverse(int[] array, int index)
-// {
-//     // Проверяем, является ли индекс отрицательным, тогда выходим из рекурсии
-//     if (index < 0)
-//         return;
-//     Console.WriteLine(array[index]);
-//     // Рекурсивно вызываем функцию для предыдущего индекса в массиве
-//     PrintArrayReverse(array, index - 1);
+    if (index >= 0)
+    {
+        Console.Write(array[index] + " ");
+        PrintArrayReverse(array, index - 1);
+    }
 }
