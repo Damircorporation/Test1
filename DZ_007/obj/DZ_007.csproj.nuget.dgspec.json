@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Damir\\Desktop\\Seminar\\DZ_007\\DZ_007.csproj": {}
+    "C:\\Users\\Damir\\Desktop\\Учеба\\Seminar С#\\DZ_007\\DZ_007.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Damir\\Desktop\\Seminar\\DZ_007\\DZ_007.csproj": {
+    "C:\\Users\\Damir\\Desktop\\Учеба\\Seminar С#\\DZ_007\\DZ_007.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Damir\\Desktop\\Seminar\\DZ_007\\DZ_007.csproj",
+        "projectUniqueName": "C:\\Users\\Damir\\Desktop\\Учеба\\Seminar С#\\DZ_007\\DZ_007.csproj",
         "projectName": "DZ_007",
-        "projectPath": "C:\\Users\\Damir\\Desktop\\Seminar\\DZ_007\\DZ_007.csproj",
+        "projectPath": "C:\\Users\\Damir\\Desktop\\Учеба\\Seminar С#\\DZ_007\\DZ_007.csproj",
         "packagesPath": "C:\\Users\\Damir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Damir\\Desktop\\Seminar\\DZ_007\\obj\\",
+        "outputPath": "C:\\Users\\Damir\\Desktop\\Учеба\\Seminar С#\\DZ_007\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Damir\\AppData\\Roaming\\NuGet\\NuGet.Config"
