@@ -1,0 +1,15 @@
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\bin\Debug\net6.0\Control_work.exe
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\bin\Debug\net6.0\Control_work.deps.json
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\bin\Debug\net6.0\Control_work.runtimeconfig.json
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\bin\Debug\net6.0\Control_work.dll
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\bin\Debug\net6.0\Control_work.pdb
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\Control_work.csproj.AssemblyReference.cache
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\Control_work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\Control_work.AssemblyInfoInputs.cache
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\Control_work.AssemblyInfo.cs
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\Control_work.csproj.CoreCompileInputs.cache
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\Control_work.dll
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\refint\Control_work.dll
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\Control_work.pdb
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\Control_work.genruntimeconfig.cache
+C:\Users\Damir\Desktop\Учеба\Seminar С#\Control_work\obj\Debug\net6.0\ref\Control_work.dll
